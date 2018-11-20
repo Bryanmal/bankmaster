@@ -17,4 +17,4 @@ echo "Upwards is $upwards and downwards is $downwards<br>";
 
 $powerd = pow($root,"2.5");
 
-echo "powerd value is $powerd";
+echo "powered value is $powerd";

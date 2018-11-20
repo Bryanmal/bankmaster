@@ -5,4 +5,4 @@ print  10+10*4-5/6;
 print "<hr>";
 print "Mark";
 print "<hr>Kenya";
-echo "<hr>PHP Code";
+echo "<hr>PHP Code <hr>";

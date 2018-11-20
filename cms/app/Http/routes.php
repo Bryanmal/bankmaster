@@ -11,6 +11,30 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/about', function () {
+    return "Hi about page";
+});
+
+Route::get('/contact', function () {
+    return "Hi ia m contact";
+});
+
+Route::get('/post/{id}/{name}', function ($id , $name) {
+    return "This is post number".$id. " " .$name;
+});
+
+Route::get('/admin/posts/example', array('as'=>'admin.home' ,function () {
+
+    $url = route('admin.home');
+    return "this url is".$url;
+}));*/
+//Route::get('/posts{id}', 'postsController@index');
+
+Route::resource('/posts', 'PostsController');
+
+
+Route::get('/Contact', 'postsController@Contact');
